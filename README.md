@@ -1,6 +1,7 @@
 # Chatbot
 
 ARCHITECTURE OVERVIEW
+![image](https://github.com/user-attachments/assets/b9113e70-7555-4ba4-a898-5f6b21435c30)
 
  
 DEPLOYMENT
@@ -24,3 +25,4 @@ An Amazon EventBridge rule is configured to monitor the S3 bucket. Whenever a ne
 o	EventBridge triggers an update
 o	The document is automatically embedded using Titan and synced to OpenSearch
 o	This ensures the KB remains up to date with the latest documents without manual intervention
+
